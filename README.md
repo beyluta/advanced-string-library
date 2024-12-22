@@ -49,7 +49,7 @@ int main()
     }
 
     // Freeing up memory
-    ads_destroy(check)
+    ads_destroy(check);
     ads_destroy(str);
     return 0;
 }
